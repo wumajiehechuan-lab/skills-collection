@@ -1,0 +1,7 @@
+interface:
+  display_name: "播客脚本生成"
+  short_description: "两阶段将素材转化为标准播客对话脚本，支持自然语言设定播客参数"
+  default_prompt: "使用 $podcast-script 将提供的素材转化为标准播客对话脚本"
+
+policy:
+  allow_implicit_invocation: true

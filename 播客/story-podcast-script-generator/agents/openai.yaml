@@ -1,0 +1,3 @@
+﻿display_name: 故事播客脚本生成器
+short_description: 两阶段生成叙事播客对话脚本：先提取概述，再分割为多角色对话。
+default_prompt: 我想把这个故事做成播客，帮我生成播客脚本。
