@@ -120,6 +120,14 @@
 
 ---
 
+## 七、🎬 官方 skill 本地定制版
+
+| 技能 | 说明 |
+|------|------|
+| **google-workspace** | Hermes 官方 skill（Nous Research）。本地定制：`scripts/setup.py` 新增 YouTube Data + Analytics 2 个 scope（2026-08-11，Drift Stories 频道接入）。详见 `google-workspace/定制说明.md` |
+
+---
+
 ## 目录结构
 
 ```
@@ -153,9 +161,10 @@ skills-collection/
 ├── skill-vetter/                ← 技能安全审查
 ├── task-dispatch/               ← 任务派发
 ├── tavily-search/               ← Tavily 搜索
-└── video-spec-builder/          ← 视频规格构建
+├── video-spec-builder/          ← 视频规格构建
+└── google-workspace/            ← 官方 skill 本地定制（含 YouTube scope）
 ```
 
 ---
 
-> 最后更新：2026-06-12
+> 最后更新：2026-08-11
